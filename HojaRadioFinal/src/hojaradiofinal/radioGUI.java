@@ -1,16 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/* *******************************************************
+ * Gabriel Martinez 14070
+ * Belen Hernandez 14361
+ * Arturo Garcia 14186
+ * Marcos Benedict 14368
+ * *******************************************************
+ * El proposito de este programa es genrar la interfaz de
+ * una radio mediante el uso de tipos de dato abractos e
+ * implementacion de estos.
+ * *******************************************************
+ * radioGUI: es el panel que contiene la interfaz grafica
+ * para el usuario, se encarga de interactuar con el user
+ * para conseguir la informacion necesaria para la funcion
+ * de la clase Pioneer
  */
 package hojaradiofinal;
+
 
 /**
  *
  * @author marcosb11
  */
 public class radioGUI extends javax.swing.JPanel {
-    Pioneer musica = new Pioneer();
+    Pioneer musica = new Pioneer(); //se crea una instancia de la clase Pioneer, y se le llama musica
     /**
      * Creates new form radioGUI
      */
@@ -231,7 +242,7 @@ public class radioGUI extends javax.swing.JPanel {
                 .addComponent(jButton5)
                 .addContainerGap(15, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(79, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -258,15 +269,15 @@ public class radioGUI extends javax.swing.JPanel {
                 .addGap(80, 80, 80))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(292, 292, 292)
-                .addComponent(save, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(save, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(292, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(power, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(power, javax.swing.GroupLayout.DEFAULT_SIZE, 53, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE, false)
                         .addComponent(jTextField1)
                         .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -274,8 +285,8 @@ public class radioGUI extends javax.swing.JPanel {
                         .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGap(33, 33, 33)
-                .addComponent(save, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(30, 30, 30)
+                .addComponent(save, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -313,13 +324,14 @@ public class radioGUI extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(277, 277, 277)
+                        .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(277, 277, 277)
-                .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -328,45 +340,50 @@ public class radioGUI extends javax.swing.JPanel {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(6, 6, 6))
+                .addGap(11, 11, 11))
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        musica.setAMFM(0);
+        //BOTON AM
+        musica.setAMFM(0); //boton para poner la radio en AM o FM, 0 pone AM
         jTextField1.setText(String.valueOf(musica.getEmisora()));
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:\
-        musica.setAMFM(1);
+        //BOTON FM
+        musica.setAMFM(1); //boton para poner la radio en AM o FM, 1 pone FM
         jTextField1.setText(String.valueOf(musica.getEmisora()));
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        if(save.isSelected()){
-            musica.guardar(0);
-            save.setSelected(false);
+        //ESTO FUNCIONA CON CADA UNO DE LOS BOTONES 1 AL 12
+        //BOTON 1
+        if(save.isSelected()){ //si el boton save esta presionado
+            musica.guardar(0); //el boton presionado almacena la emisora actual
+            save.setSelected(false); //por ultimo se libera el boton save
         }
-        musica.memoria(0);
-        jTextField1.setText(String.valueOf(musica.getEmisora()));     
+        musica.memoria(0); //si no se presiona save, se busca la cancion almacenada en el boton
+        jTextField1.setText(String.valueOf(musica.getEmisora())); //se despliega la emisora en pantalla
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
+        //BOTON 2
         if(save.isSelected()){
             musica.guardar(1);
             save.setSelected(false);
         }
-        
         musica.memoria(1);
         jTextField1.setText(String.valueOf(musica.getEmisora()));   
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
+        //BOTON 3
         if(save.isSelected()){
             musica.guardar(2);
             save.setSelected(false);
@@ -377,6 +394,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
+        //BOTON 4
         if(save.isSelected()){
             musica.guardar(3);
             save.setSelected(false);
@@ -387,6 +405,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
+        //BOTON 5
         if(save.isSelected()){
             musica.guardar(4);
             save.setSelected(false);
@@ -397,6 +416,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
+        //BOTON 6
         if(save.isSelected()){
             musica.guardar(5);
             save.setSelected(false);
@@ -407,6 +427,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         // TODO add your handling code here:
+        //BOTON 7
          if(save.isSelected()){
             musica.guardar(6);
             save.setSelected(false);
@@ -417,6 +438,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
+        //BOTON 8
          if(save.isSelected()){
             musica.guardar(7);
             save.setSelected(false);
@@ -427,6 +449,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         // TODO add your handling code here:
+        //BOTON 9
          if(save.isSelected()){
             musica.guardar(8);
             save.setSelected(false);
@@ -437,6 +460,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         // TODO add your handling code here:
+        //BOTON 10
          if(save.isSelected()){
             musica.guardar(9);
             save.setSelected(false);
@@ -447,6 +471,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
+        //BOTON 11
          if(save.isSelected()){
             musica.guardar(10);
             save.setSelected(false);
@@ -457,6 +482,7 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
+        //BOTON 12
          if(save.isSelected()){
             musica.guardar(11);
             save.setSelected(false);
@@ -467,15 +493,17 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         // TODO add your handling code here:0
-        System.exit(0);
+        //BOTON SALIR
+        System.exit(0); //ciera el programa
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void powerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_powerActionPerformed
         // TODO add your handling code here:
-        if(power.isSelected()){
-            musica.setEstado(true);
-            jTextField1.setText(String.valueOf(musica.getEmisora()));
-            jButton2.setEnabled(true);
+        //BOTON POWER
+        if(power.isSelected()){ //mientras el boton este presionado
+            musica.setEstado(true); //el estado de la radio pasa a encendido
+            jTextField1.setText(String.valueOf(musica.getEmisora())); //se muestra en pantalla la radio por defecto (87.9 FM)
+            jButton2.setEnabled(true); //se habilitan todos los botones
             jButton3.setEnabled(true);
             jButton4.setEnabled(true);
             jButton5.setEnabled(true);
@@ -494,9 +522,9 @@ public class radioGUI extends javax.swing.JPanel {
             
             
         }else{
-            musica.setEstado(false);
-            jTextField1.setText("");
-            jButton2.setEnabled(false);
+            musica.setEstado(false); //el estado de la radio pasa a apagado
+            jTextField1.setText(""); //no se muestra nada en pantalla
+            jButton2.setEnabled(false); //se deshabilitan todos los botones
             jButton3.setEnabled(false);
             jButton4.setEnabled(false);
             jButton5.setEnabled(false);
@@ -519,15 +547,17 @@ public class radioGUI extends javax.swing.JPanel {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        musica.sintonizar(false);
-        jTextField1.setText(String.valueOf(musica.getEmisora()));
+        //BOTON PREV
+        musica.sintonizar(false); //envia el parametro para buscar una sintonizora anterior
+        jTextField1.setText(String.valueOf(musica.getEmisora())); //se despliega la nueva emisora en pantalla
         System.out.println(String.valueOf(musica.getEmisora()));
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        musica.sintonizar(true);
-        jTextField1.setText(String.valueOf(musica.getEmisora()));
+        //BOTON FOWARD
+        musica.sintonizar(true); //envia el parametro para buscar la siguiente emisora
+        jTextField1.setText(String.valueOf(musica.getEmisora())); //se despliega la nueva emisora en pantalla
         System.out.println(String.valueOf(musica.getEmisora()));
     }//GEN-LAST:event_jButton3ActionPerformed
 
