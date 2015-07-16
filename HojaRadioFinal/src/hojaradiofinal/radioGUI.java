@@ -15,7 +15,6 @@
  */
 package hojaradiofinal;
 
-
 /**
  *
  * @author marcosb11
@@ -62,11 +61,11 @@ public class radioGUI extends javax.swing.JPanel {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder("WATERBELEN")));
 
-        jTextField1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Tahoma", 0, 36));
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField1.setEnabled(false);
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Tahoma", 0, 36));
         jButton2.setText("<");
         jButton2.setEnabled(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -75,7 +74,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Tahoma", 0, 36));
         jButton3.setText(">");
         jButton3.setEnabled(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -91,7 +90,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton4.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton4.setText("AM");
         jButton4.setEnabled(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -100,7 +99,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton5.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton5.setText("FM");
         jButton5.setEnabled(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +108,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton6.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton6.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton6.setText("1");
         jButton6.setEnabled(false);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +117,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton7.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton7.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton7.setText("2");
         jButton7.setEnabled(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -127,7 +126,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton8.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton8.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton8.setText("3");
         jButton8.setEnabled(false);
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -136,7 +135,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton9.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton9.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton9.setText("4");
         jButton9.setEnabled(false);
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -145,7 +144,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton10.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton10.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton10.setText("5");
         jButton10.setEnabled(false);
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -154,7 +153,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton11.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton11.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton11.setText("6");
         jButton11.setEnabled(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -163,7 +162,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton15.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton15.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton15.setText("10");
         jButton15.setEnabled(false);
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -172,7 +171,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton16.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton16.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton16.setText("11");
         jButton16.setEnabled(false);
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -181,7 +180,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton17.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton17.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton17.setText("12");
         jButton17.setEnabled(false);
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -190,7 +189,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton12.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton12.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton12.setText("7");
         jButton12.setEnabled(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -199,7 +198,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton13.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton13.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton13.setText("8");
         jButton13.setEnabled(false);
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -208,7 +207,7 @@ public class radioGUI extends javax.swing.JPanel {
             }
         });
 
-        jButton14.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton14.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton14.setText("9");
         jButton14.setEnabled(false);
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -311,7 +310,7 @@ public class radioGUI extends javax.swing.JPanel {
                 .addGap(46, 46, 46))
         );
 
-        jButton18.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
+        jButton18.setFont(new java.awt.Font("Tahoma", 0, 30));
         jButton18.setText("SALIR");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -363,10 +362,10 @@ public class radioGUI extends javax.swing.JPanel {
         //ESTO FUNCIONA CON CADA UNO DE LOS BOTONES 1 AL 12
         //BOTON 1
         if(save.isSelected()){ //si el boton save esta presionado
-            musica.guardar(0); //el boton presionado almacena la emisora actual
+            musica.Guardar(0); //el boton presionado almacena la emisora actual
             save.setSelected(false); //por ultimo se libera el boton save
         }
-        musica.memoria(0); //si no se presiona save, se busca la cancion almacenada en el boton
+        musica.Memoria(0); //si no se presiona save, se busca la cancion almacenada en el boton
         jTextField1.setText(String.valueOf(musica.getEmisora())); //se despliega la emisora en pantalla
     }//GEN-LAST:event_jButton6ActionPerformed
 
@@ -374,10 +373,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 2
         if(save.isSelected()){
-            musica.guardar(1);
+            musica.Guardar(1);
             save.setSelected(false);
         }
-        musica.memoria(1);
+        musica.Memoria(1);
         jTextField1.setText(String.valueOf(musica.getEmisora()));   
     }//GEN-LAST:event_jButton7ActionPerformed
 
@@ -385,10 +384,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 3
         if(save.isSelected()){
-            musica.guardar(2);
+            musica.Guardar(2);
             save.setSelected(false);
         }
-        musica.memoria(2);
+        musica.Memoria(2);
         jTextField1.setText(String.valueOf(musica.getEmisora()));   
     }//GEN-LAST:event_jButton8ActionPerformed
 
@@ -396,10 +395,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 4
         if(save.isSelected()){
-            musica.guardar(3);
+            musica.Guardar(3);
             save.setSelected(false);
         }
-        musica.memoria(3);
+        musica.Memoria(3);
         jTextField1.setText(String.valueOf(musica.getEmisora()));   
     }//GEN-LAST:event_jButton9ActionPerformed
 
@@ -407,10 +406,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 5
         if(save.isSelected()){
-            musica.guardar(4);
+            musica.Guardar(4);
             save.setSelected(false);
         }
-        musica.memoria(4);
+        musica.Memoria(4);
         jTextField1.setText(String.valueOf(musica.getEmisora()));   
     }//GEN-LAST:event_jButton10ActionPerformed
 
@@ -418,10 +417,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 6
         if(save.isSelected()){
-            musica.guardar(5);
+            musica.Guardar(5);
             save.setSelected(false);
         }
-        musica.memoria(5);
+        musica.Memoria(5);
         jTextField1.setText(String.valueOf(musica.getEmisora()));   
     }//GEN-LAST:event_jButton11ActionPerformed
 
@@ -429,10 +428,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 7
          if(save.isSelected()){
-            musica.guardar(6);
+            musica.Guardar(6);
             save.setSelected(false);
         }
-        musica.memoria(6);
+        musica.Memoria(6);
         jTextField1.setText(String.valueOf(musica.getEmisora()));  
     }//GEN-LAST:event_jButton12ActionPerformed
 
@@ -440,10 +439,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 8
          if(save.isSelected()){
-            musica.guardar(7);
+            musica.Guardar(7);
             save.setSelected(false);
         }
-        musica.memoria(7);
+        musica.Memoria(7);
         jTextField1.setText(String.valueOf(musica.getEmisora()));  
     }//GEN-LAST:event_jButton13ActionPerformed
 
@@ -451,10 +450,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 9
          if(save.isSelected()){
-            musica.guardar(8);
+            musica.Guardar(8);
             save.setSelected(false);
         }
-        musica.memoria(8);
+        musica.Memoria(8);
         jTextField1.setText(String.valueOf(musica.getEmisora()));  
     }//GEN-LAST:event_jButton14ActionPerformed
 
@@ -462,10 +461,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 10
          if(save.isSelected()){
-            musica.guardar(9);
+            musica.Guardar(9);
             save.setSelected(false);
         }
-        musica.memoria(9);
+        musica.Memoria(9);
         jTextField1.setText(String.valueOf(musica.getEmisora()));  
     }//GEN-LAST:event_jButton15ActionPerformed
 
@@ -473,10 +472,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 11
          if(save.isSelected()){
-            musica.guardar(10);
+            musica.Guardar(10);
             save.setSelected(false);
         }
-        musica.memoria(10);
+        musica.Memoria(10);
         jTextField1.setText(String.valueOf(musica.getEmisora()));  
     }//GEN-LAST:event_jButton16ActionPerformed
 
@@ -484,10 +483,10 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON 12
          if(save.isSelected()){
-            musica.guardar(11);
+            musica.Guardar(11);
             save.setSelected(false);
         }
-        musica.memoria(11);
+        musica.Memoria(11);
         jTextField1.setText(String.valueOf(musica.getEmisora()));  
     }//GEN-LAST:event_jButton17ActionPerformed
 
@@ -501,7 +500,7 @@ public class radioGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
         //BOTON POWER
         if(power.isSelected()){ //mientras el boton este presionado
-            musica.setEstado(true); //el estado de la radio pasa a encendido
+            musica.setESTADO(true); //el estado de la radio pasa a encendido
             jTextField1.setText(String.valueOf(musica.getEmisora())); //se muestra en pantalla la radio por defecto (87.9 FM)
             jButton2.setEnabled(true); //se habilitan todos los botones
             jButton3.setEnabled(true);
@@ -522,7 +521,7 @@ public class radioGUI extends javax.swing.JPanel {
             
             
         }else{
-            musica.setEstado(false); //el estado de la radio pasa a apagado
+            musica.setESTADO(false); //el estado de la radio pasa a apagado
             jTextField1.setText(""); //no se muestra nada en pantalla
             jButton2.setEnabled(false); //se deshabilitan todos los botones
             jButton3.setEnabled(false);
@@ -548,7 +547,7 @@ public class radioGUI extends javax.swing.JPanel {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         //BOTON PREV
-        musica.sintonizar(false); //envia el parametro para buscar una sintonizora anterior
+        musica.Sintonizar(false); //envia el parametro para buscar una sintonizora anterior
         jTextField1.setText(String.valueOf(musica.getEmisora())); //se despliega la nueva emisora en pantalla
         System.out.println(String.valueOf(musica.getEmisora()));
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -556,7 +555,7 @@ public class radioGUI extends javax.swing.JPanel {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         //BOTON FOWARD
-        musica.sintonizar(true); //envia el parametro para buscar la siguiente emisora
+        musica.Sintonizar(true); //envia el parametro para buscar la siguiente emisora
         jTextField1.setText(String.valueOf(musica.getEmisora())); //se despliega la nueva emisora en pantalla
         System.out.println(String.valueOf(musica.getEmisora()));
     }//GEN-LAST:event_jButton3ActionPerformed

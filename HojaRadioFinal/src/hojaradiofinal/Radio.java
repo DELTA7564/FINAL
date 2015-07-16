@@ -20,7 +20,7 @@ package hojaradiofinal;
  */
 public interface Radio {
    
-    public void setEstado(boolean nEstado); //controla el estado del radio ON/OFF dependiendo del parametro
+        public void setESTADO(boolean nEstado); //controla el estado del radio ON/OFF dependiendo del parametro
     
     public boolean getEstado(); //getter para el estado, envia el estado actual
     
@@ -28,11 +28,11 @@ public interface Radio {
     
     public void setAMFM(int banda); //controla la banda de la radio AM/FM dependiendo del parametro
     
-    public void sintonizar(boolean ud); //controla las emisoras, avanza o retrocede segun el parametro ud
+    public void Sintonizar(boolean ud); //controla las emisoras, avanza o retrocede segun el parametro ud
     
-    public void guardar(int pos); //se encarga de almacenar en la memoria el contenido de cada boton
+    public void Guardar(int pos); //se encarga de almacenar en la memoria el contenido de cada boton
     
-    public void memoria(int pos); //se encarga de cargar (dependiendo de la posicion y del la banda) la estacion del boton seleccionado
+    public void Memoria(int pos); //se encarga de cargar (dependiendo de la posicion y del la banda) la estacion del boton seleccionado
     
     public double getEmisora(); //getter para la estacion actual
     
